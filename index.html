@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Shoes</a>
+                <a class="nav-item nav-link" href="#shoes">Shoes</a>
                 <a class="nav-item nav-link" href="#backpack">Backpack</a>
                 <a class="nav-item nav-link" href="#contact">ContactUs</a>
               </div>
@@ -27,65 +27,129 @@
           </nav>
     </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <div class="row align-items-center">
-                  <div class="col-md-7">
-                      <h1>Mi LED TV 4A PRO 32</h1>
-                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-                      <h1 class="price">$1289</h1>
-                      <button class="buy-now-button">Buy Now </button>
 
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                          <h1>Mi LED TV 4A PRO 32</h1>
+                          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                          <h1 class="price">$1289</h1>
+                          <button class="buy-now-button">Buy Now </button>
+    
+                      </div>
+                      <div class="col-md-5">
+                        <img src="media/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
                   </div>
-                  <div class="col-md-5">
-                    <img src="media/banner-images/tv.png" class="d-block w-100" alt="...">
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Sparkle Headphone PRO 420</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                        <h1 class="price">$289</h1>
+                        <button class="buy-now-button">Buy Now </button>
+    
+                    </div>
+                    <div class="col-md-5">
+                        <img src="media/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Microsoft XBOX 5</h1>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                        <h1 class="price">$889</h1>
+                        <button class="buy-now-button">Buy Now </button>
+    
+                    </div>
+                    <div class="col-md-5">
+                        <img src="media/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    
+    </div>
+
+    
+      <div class="container categories">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="d-flex justify-content-between align-items-center cat1">
+                    <h1>Watch</h1>
+                    <img src="media/categories/watch.png" alt="">
                   </div>
               </div>
-            
+              <div class="col-md-4">
+                  <div class="d-flex justify-content-between align-items-center cat2">
+                    <h1>Backpack</h1>
+                    <img src="media/categories/bag.png" alt="">
+                  </div>
+              </div>
+              <div class="col-md-4">
+                 <div class="d-flex justify-content-between align-items-center cat3">
+                    <h1>Shoes</h1>
+                    <img src="media/categories/shoes.png" alt="">
+                 </div>
+              </div>
           </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h1>Sparkle Headphone PRO 420</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-                    <h1 class="price">$289</h1>
-                    <button class="buy-now-button">Buy Now </button>
+      </div>
 
-                </div>
-                <div class="col-md-5">
-                    <img src="media/banner-images/headphone.png" class="d-block w-100" alt="...">
-                </div>
+      <div class="container shoes" id="shoes">
+          <h3>Shoes</h3>
+          <div class="card-deck">
+            <div class="card">
+              <img src="media/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SPLV 350</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="price">$189</h5>
+                <button class="buy-now">Buy Now </button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="media/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike G.Ash 2.0</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="price">$369</h5>
+                <button class="buy-now">Buy Now </button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="media/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red AIRMAX</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="price">$279</h5>
+                <button class="buy-now">Buy Now </button>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h1>Microsoft XBOX 5</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
-                    <h1 class="price">$889</h1>
-                    <button class="buy-now-button">Buy Now </button>
-
-                </div>
-                <div class="col-md-5">
-                    <img src="media/banner-images/xbox.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
 
 

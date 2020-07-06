@@ -4,7 +4,6 @@
 .orange-bg{
     background-color: #feeae9;
     border-radius: 10px;
-    margin: 0px 355px; 
 }
 .carousel-item{
     padding: 20px 40px;
@@ -22,4 +21,43 @@
     border-radius: 8px;
     padding: 10px 25px;
     cursor: pointer;
+}
+.cat1{
+    background-image: linear-gradient(to bottom, #FFA431 0%, #FFCD1A 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #FF136F 0%, #FF5898 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    
+}
+.cat3{
+    background-image: linear-gradient(to bottom, #3F0EF8 0%, #4284FF 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+.categories img{
+    width: 100px;
+}
+.buy-now{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
 }
